@@ -1,0 +1,18 @@
+{
+  "name": "deep-os",
+  "version": "1.0.0",
+  "description": "Deep OS - AI-Powered Intelligent System Management",
+  "private": true,
+  "scripts": {
+    "backend": "cd backend && python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload",
+    "frontend": "cd frontend && npm run dev",
+    "electron": "cd electron && npm start",
+    "dev": "npx -y concurrently \"npm run backend\" \"npm run frontend\"",
+    "install:backend": "cd backend && pip install -r requirements.txt",
+    "install:frontend": "cd frontend && npm install",
+    "install:electron": "cd electron && npm install",
+    "install:all": "npm run install:backend; npm run install:frontend; npm run install:electron",
+    "test:backend": "cd backend && python -m pytest tests/ -v",
+    "build:frontend": "cd frontend && npm run build"
+  }
+}

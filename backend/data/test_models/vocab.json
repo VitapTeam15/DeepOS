@@ -1,0 +1,16 @@
+{
+  "app2idx": {
+    "<PAD>": 0,
+    "<UNK>": 1,
+    "Chrome": 2,
+    "Terminal": 3,
+    "VSCode": 4
+  },
+  "idx2app": {
+    "0": "<PAD>",
+    "1": "<UNK>",
+    "2": "Chrome",
+    "3": "Terminal",
+    "4": "VSCode"
+  }
+}

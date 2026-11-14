@@ -1,0 +1,30 @@
+{
+  "app2idx": {
+    "<PAD>": 0,
+    "<UNK>": 1,
+    "ApplicationFrameHost.exe": 2,
+    "Chrome": 3,
+    "Code.exe": 4,
+    "SearchHost.exe": 5,
+    "ShellExperienceHost.exe": 6,
+    "ShellHost.exe": 7,
+    "VSCode": 8,
+    "chrome.exe": 9,
+    "electron.exe": 10,
+    "msedge.exe": 11
+  },
+  "idx2app": {
+    "0": "<PAD>",
+    "1": "<UNK>",
+    "2": "ApplicationFrameHost.exe",
+    "3": "Chrome",
+    "4": "Code.exe",
+    "5": "SearchHost.exe",
+    "6": "ShellExperienceHost.exe",
+    "7": "ShellHost.exe",
+    "8": "VSCode",
+    "9": "chrome.exe",
+    "10": "electron.exe",
+    "11": "msedge.exe"
+  }
+}

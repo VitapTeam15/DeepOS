@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "status": "TRAINED",
+    "model_type": "LSTM",
+    "architecture": "Embedding(32) -> LSTM(64) -> Dropout(0.2) -> Dense -> Softmax",
+    "training_samples": 85,
+    "validation_samples": 22,
+    "vocab_size": 12,
+    "classes": [
+      "ApplicationFrameHost.exe",
+      "Chrome",
+      "Code.exe",
+      "SearchHost.exe",
+      "ShellExperienceHost.exe",
+      "ShellHost.exe",
+      "VSCode",
+      "chrome.exe",
+      "electron.exe",
+      "msedge.exe"
+    ],
+    "last_trained": "2026-10-10T11:58:50.889842",
+    "validation_loss": 3.6096,
+    "top1_accuracy": 0.2273,
+    "top3_accuracy": 0.6818,
+    "epochs_trained": 25,
+    "version": "1.0.0"
+  },
+  "seq_length": 3,
+  "embedding_dim": 32,
+  "hidden_dim": 64,
+  "dropout": 0.2
+}

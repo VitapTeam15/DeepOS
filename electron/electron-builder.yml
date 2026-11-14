@@ -1,0 +1,24 @@
+appId: com.deepos.app
+productName: Deep OS
+directories:
+  output: dist
+  buildResources: build
+files:
+  - "main.js"
+  - "preload.js"
+  - "tray.js"
+  - "package.json"
+  - "node_modules/**"
+  - from: "../frontend/dist"
+    to: "frontend/dist"
+    filter: ["**/*"]
+extraResources:
+  - from: "../backend/dist/deepos-backend"
+    to: "backend"
+    filter: ["**/*"]
+win:
+  target: ["nsis", "portable"]
+  icon: build/icon.ico
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true

@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "status": "TRAINED",
+    "model_type": "LSTM",
+    "architecture": "Embedding(32) -> LSTM(64) -> Dropout(0.2) -> Dense -> Softmax",
+    "training_samples": 47,
+    "validation_samples": 12,
+    "vocab_size": 5,
+    "classes": [
+      "Chrome",
+      "Terminal",
+      "VSCode"
+    ],
+    "last_trained": "2026-10-05T20:45:43.061183",
+    "validation_loss": 0.0019,
+    "top1_accuracy": 1.0,
+    "top3_accuracy": 1.0,
+    "epochs_trained": 15,
+    "version": "1.0.0"
+  },
+  "seq_length": 3,
+  "embedding_dim": 32,
+  "hidden_dim": 64,
+  "dropout": 0.2
+}

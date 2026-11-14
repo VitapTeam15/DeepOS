@@ -1,0 +1,61 @@
+﻿# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Build & packaging artifacts
+dist/
+build/
+*.egg-info/
+*.egg
+win-unpacked/
+
+# Logs
+*.log
+backend/data/logs/*
+!backend/data/logs/.gitkeep
+electron/*_log.txt
+electron/log2.txt
+
+# Secrets & environment variables
+.env
+.env.*
+!.env.example
+*.local
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Preserve essential project data and models
+!backend/data/deepos.db
+!backend/data/models/
+!backend/data/test_models/
+!backend/data/settings.json

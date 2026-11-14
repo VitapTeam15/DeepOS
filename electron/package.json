@@ -1,0 +1,18 @@
+{
+  "name": "deep-os-electron",
+  "version": "1.0.0",
+  "description": "Deep OS - AI-Powered System Management Desktop App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "dependencies": {
+    "electron-store": "^10.0.0",
+    "node-notifier": "^10.0.1"
+  },
+  "devDependencies": {
+    "electron": "^33.3.1",
+    "electron-builder": "^25.1.8"
+  }
+}
